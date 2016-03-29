@@ -38,7 +38,6 @@ static inline UIColor * pureColor(CGFloat value){
 @property (weak, nonatomic) IBOutlet UIImageView *ImageView05;
 @property (weak, nonatomic) IBOutlet UIImageView *ImageView005;
 @property (weak, nonatomic) IBOutlet UIImageView *ImageView0005;
-
 @end
 
 @implementation ViewController

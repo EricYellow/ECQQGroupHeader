@@ -196,6 +196,8 @@ static inline NSValue * valueFrame(CGRect frame){
 + (UIImage *)drawImageWithImagePath:(NSString *)imagePath contextSize:(CGSize)size degrees:(NSInteger)degrees isClip:(BOOL)isClip backgroundColor:(UIColor *)backgroundColor
 {
     UIImage *image = [UIImage imageNamed:imagePath];
+    image = [self getSquareImageWithOriginalImage:image];
+
     CGRect bounds = (CGRect){{0,0},size};
     CGPoint center = CGPointMake(CGRectGetMidX(bounds), CGRectGetMidY(bounds));
 
@@ -251,6 +253,31 @@ static inline NSValue * valueFrame(CGRect frame){
     return image;
 }
 
++ (UIImage *)getSquareImageWithOriginalImage:(UIImage *)originalImage
+{
+    CGFloat origionalWidth = originalImage.size.width;
+    CGFloat origionalHeight = originalImage.size.height;
+    CGSize clipSize = CGSizeZero;
+    
+    clipSize = origionalWidth > origionalHeight? CGSizeMake(origionalHeight, origionalHeight):CGSizeMake(origionalWidth, origionalWidth);
+    
+    // 开启context
+    UIGraphicsBeginImageContextWithOptions(clipSize, YES, [UIScreen mainScreen].scale);
+    
+    //CGRect drawRect = CGRectMake(-2, -2, originalImage.size.width +4, originalImage.size.height + 4);
+    
+    [originalImage drawInRect:(CGRect){CGPointZero,originalImage.size}];
+    
+    UIImage *composeImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    // 关闭context
+    UIGraphicsEndImageContext();
+    
+    return composeImage;
+    
+}
+
+
 + (UIImage *)getComposeImageWithImages:(NSArray<UIImage *> *)images frames:(NSArray<NSValue *> *)frames inSize:(CGSize)size backgroundColor:(UIColor *)backgroundColor
 {
     // 开启context
@@ -278,8 +305,11 @@ static inline NSValue * valueFrame(CGRect frame){
         
         NSValue *frameValue = frames[i];
         CGRect frame = [frameValue CGRectValue];
+        // 去除黑边
+        CGRect constFrame = CGRectMake(frame.origin.x + .5, frame.origin.y + .5, frame.size.width -1, frame.size.height - 1);
         // 裁圆形
-        CGContextAddEllipseInRect(context, frame);
+        CGContextAddEllipseInRect(context, constFrame);
+
         CGContextClip(context);
         
         UIImage *image = images[i];

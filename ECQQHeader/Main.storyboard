@@ -34,8 +34,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="dhB-Pn-NLm"/>
                                         <exclude reference="8BM-Hg-Lbs"/>
+                                        <exclude reference="dhB-Pn-NLm"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -98,8 +98,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="VGc-vA-7sQ"/>
                                         <exclude reference="5M3-dz-S7e"/>
+                                        <exclude reference="VGc-vA-7sQ"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -112,8 +112,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="emx-67-V8J"/>
                                         <exclude reference="V1E-p5-CdX"/>
+                                        <exclude reference="emx-67-V8J"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -126,8 +126,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="SOR-id-5QQ"/>
                                         <exclude reference="Bz0-TO-ZTv"/>
+                                        <exclude reference="SOR-id-5QQ"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -176,8 +176,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="Hud-I4-kr8"/>
                                         <exclude reference="6Oe-Gw-JH3"/>
+                                        <exclude reference="Hud-I4-kr8"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -190,8 +190,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="kpK-Bt-tIs"/>
                                         <exclude reference="CLE-Tx-WSH"/>
+                                        <exclude reference="kpK-Bt-tIs"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -204,8 +204,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="wsh-d1-5Q4"/>
                                         <exclude reference="Zfs-e0-5sk"/>
+                                        <exclude reference="wsh-d1-5Q4"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -226,8 +226,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="uyj-Yr-dFi"/>
                                         <exclude reference="5vu-OM-Noo"/>
+                                        <exclude reference="uyj-Yr-dFi"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -240,8 +240,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="vjK-B0-seu"/>
                                         <exclude reference="hFn-Rf-mFY"/>
+                                        <exclude reference="vjK-B0-seu"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -254,8 +254,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="x2F-Mt-qOM"/>
                                         <exclude reference="gqz-Z9-9lg"/>
+                                        <exclude reference="x2F-Mt-qOM"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -268,8 +268,8 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="mg1-Yw-AWs"/>
                                         <exclude reference="A23-Xe-doJ"/>
+                                        <exclude reference="mg1-Yw-AWs"/>
                                     </mask>
                                 </variation>
                             </imageView>

@@ -465,7 +465,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ECQQHeader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Ingram.ECQQHeader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -476,7 +478,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ECQQHeader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Ingram.ECQQHeader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -550,6 +554,7 @@
 				1A670F2F1C928117006B4C5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A670F301C928117006B4C5C /* Build configuration list for PBXNativeTarget "ECQQHeaderTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +563,7 @@
 				1A670F321C928117006B4C5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A670F331C928117006B4C5C /* Build configuration list for PBXNativeTarget "ECQQHeaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +572,7 @@
 				1A670F351C928117006B4C5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
