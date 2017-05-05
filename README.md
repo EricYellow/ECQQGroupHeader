@@ -1,3 +1,5 @@
+
+![logo](https://github.com/EricYellow/PopularSite/blob/master/logo.png)
 # ECQQGroupHeader
 ## 模仿QQ讨论组头像，实现高清显示,Quartz Core实现!
 > 实现思路有参考itlijunjie 的QQHearder,在此感谢！
